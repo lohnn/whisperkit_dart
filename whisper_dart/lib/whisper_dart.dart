@@ -21,8 +21,8 @@ enum WhisperFormat {
   cleanVerboseJson
   ;
 
-  /// Returns the string representation for the native library.
-  String get toNativeFormat => switch (this) {
+  /// The string representation of the format for the native library.
+  String get nativeValue => switch (this) {
     WhisperFormat.text => 'text',
     WhisperFormat.json => 'json',
     WhisperFormat.verboseJson => 'verbose_json',
@@ -157,7 +157,7 @@ class Whisper {
 
     // Handle clean_verbose_json
     final isCleanVerboseJson = format == WhisperFormat.cleanVerboseJson;
-    final effectiveFormat = format.toNativeFormat;
+    final effectiveFormat = format.nativeValue;
     // Force word timestamps if clean_verbose_json is requested,
     // or use user preference
     final effectiveWordTimestamps = isCleanVerboseJson || wordTimestamps;
