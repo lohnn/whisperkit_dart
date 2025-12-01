@@ -1,3 +1,0 @@
-module HeapModule {
-    header "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/HeapModule.build/include/HeapModule-Swift.h"
-}

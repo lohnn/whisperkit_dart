@@ -1,3 +1,0 @@
-module WhisperWrapper {
-    header "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/include/WhisperWrapper-Swift.h"
-}
