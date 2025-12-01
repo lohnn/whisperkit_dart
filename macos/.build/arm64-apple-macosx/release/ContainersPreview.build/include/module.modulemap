@@ -1,3 +1,0 @@
-module ContainersPreview {
-    header "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/ContainersPreview.build/include/ContainersPreview-Swift.h"
-}

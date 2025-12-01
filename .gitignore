@@ -2,7 +2,6 @@
 # Created by `dart pub`
 .dart_tool/
 build/
-macos/build/
 pubspec.lock
 doc/api/
 
@@ -14,6 +13,7 @@ doc/api/
 
 # Mac
 .DS_Store
+macos/.build/
 
 # Whisperkit
 native/
