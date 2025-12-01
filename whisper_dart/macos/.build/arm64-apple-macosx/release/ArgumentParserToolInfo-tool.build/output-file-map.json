@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/ArgumentParserToolInfo-tool.build/ArgumentParserToolInfo.d",
+    "object": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/ArgumentParserToolInfo-tool.build/ArgumentParserToolInfo.o",
+    "swift-dependencies": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/ArgumentParserToolInfo-tool.build/master.swiftdeps"
+  },
+  "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift": {
+    "object": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/ArgumentParserToolInfo-tool.build/ToolInfo.swift.o",
+    "swiftmodule": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/ArgumentParserToolInfo-tool.build/ToolInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/ArgumentParserToolInfo-tool.build/ToolInfo.swiftdeps",
+    "diagnostics": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/ArgumentParserToolInfo-tool.build/ToolInfo.dia"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.d",
+    "object": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.o",
+    "swift-dependencies": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/master.swiftdeps"
+  },
+  "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/Sources/WhisperWrapper/WhisperWrapper.swift": {
+    "object": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.swift.o",
+    "swiftmodule": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.swiftdeps",
+    "diagnostics": "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.dia"
+  }
+}

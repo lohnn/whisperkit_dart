@@ -1,0 +1,3 @@
+module ArgumentParser {
+    header "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/ArgumentParser-tool.build/include/ArgumentParser-Swift.h"
+}

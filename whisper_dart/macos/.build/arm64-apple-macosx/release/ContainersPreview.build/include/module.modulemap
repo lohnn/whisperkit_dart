@@ -1,0 +1,3 @@
+module ContainersPreview {
+    header "/Users/lohnn/Programming/podcast_subs/whisper_dart/macos/.build/arm64-apple-macosx/release/ContainersPreview.build/include/ContainersPreview-Swift.h"
+}
