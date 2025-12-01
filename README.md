@@ -16,9 +16,9 @@ A Dart FFI wrapper for [WhisperKit](https://github.com/argentlabs/WhisperKit), e
     ```
 
 2.  **Build the native library**:
-    The native library is located in `native/`. You can build it using Swift Package Manager:
+    The native library is located in `macos/`. You can build it using Swift Package Manager:
     ```bash
-    cd native
+    cd macos
     swift build -c release
     cd ..
     ```

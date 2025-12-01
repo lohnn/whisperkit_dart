@@ -87,7 +87,7 @@ class Whisper {
     // In a real app, you'd need to handle platform-specific paths.
     final libraryPath = p.join(
       Directory.current.path,
-      'native',
+      'macos',
       '.build',
       'release',
       'libWhisperWrapper.dylib',

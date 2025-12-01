@@ -3,9 +3,9 @@ description: Bindings for WhisperKit wrapper
 output: 'lib/generated_bindings.dart'
 headers:
   entry-points:
-    - 'native/Sources/WhisperWrapper/include/WhisperWrapper.h'
+    - 'macos/Sources/WhisperWrapper/include/WhisperWrapper.h'
   include-directives:
-    - 'native/Sources/WhisperWrapper/include/WhisperWrapper.h'
+    - 'macos/Sources/WhisperWrapper/include/WhisperWrapper.h'
 preamble: |
   // ignore_for_file: always_specify_types
   // ignore_for_file: camel_case_types
