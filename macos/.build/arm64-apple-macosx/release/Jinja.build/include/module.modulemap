@@ -1,0 +1,3 @@
+module Jinja {
+    header "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/Jinja.build/include/Jinja-Swift.h"
+}

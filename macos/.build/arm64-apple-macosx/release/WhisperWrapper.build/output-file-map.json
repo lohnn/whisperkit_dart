@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.d",
+    "object": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.o",
+    "swift-dependencies": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/master.swiftdeps"
+  },
+  "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/Sources/WhisperWrapper/WhisperWrapper.swift": {
+    "object": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.swift.o",
+    "swiftmodule": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.swiftdeps",
+    "diagnostics": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/WhisperWrapper.build/WhisperWrapper.dia"
+  }
+}

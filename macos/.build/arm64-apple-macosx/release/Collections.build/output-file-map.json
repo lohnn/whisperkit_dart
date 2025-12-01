@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/Collections.build/Collections.d",
+    "object": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/Collections.build/Collections.o",
+    "swift-dependencies": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/Collections.build/master.swiftdeps"
+  },
+  "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/checkouts/swift-collections/Sources/Collections/Collections.swift": {
+    "object": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/Collections.build/Collections.swift.o",
+    "swiftmodule": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/Collections.build/Collections~partial.swiftmodule",
+    "swift-dependencies": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/Collections.build/Collections.swiftdeps",
+    "diagnostics": "/Users/lohnn/Programming/open_source/whisperkit_dart/macos/.build/arm64-apple-macosx/release/Collections.build/Collections.dia"
+  }
+}
