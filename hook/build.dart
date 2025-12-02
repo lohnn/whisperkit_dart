@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:code_assets/code_assets.dart';
 import 'package:hooks/hooks.dart';
 
 void main(List<String> args) async {
@@ -17,5 +18,14 @@ void main(List<String> args) async {
     if (buildResult.exitCode != 0) {
       throw Exception('Failed to build WhisperKit: ${buildResult.stderr}');
     }
+
+    final dylibPath = macosDir.uri.resolve('.build/release/libWhisperWrapper.dylib');
+    
+    output.assets.code.add(CodeAsset(
+      package: 'whisper_dart',
+      name: 'whisper_dart_bindings',
+      linkMode: DynamicLoadingBundled(),
+      file: dylibPath,
+    ));
   });
 }

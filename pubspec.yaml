@@ -13,6 +13,7 @@ dependencies:
   path: ^1.8.0
 
 dev_dependencies:
+  code_assets: ^1.0.0
   ffigen: ^11.0.0
   hooks: ^1.0.0
   lints: ^2.0.0
