@@ -123,6 +123,37 @@ The `clean_verbose_json` format outputs a minimized JSON structure:
   metrics.
 - **Model stats**: `avgLogprob`, `compressionRatio`, etc.
 
+## Performance & Concurrency
+
+> [!IMPORTANT]
+> **Blocking Operations**: The `init()` and `transcribe()` methods are
+> **synchronous** and **blocking** on the calling thread because they invoke
+> native C functions that wait for completion.
+
+- **CLI**: This is generally fine for command-line tools.
+- **Flutter Apps**: **DO NOT** call these methods directly on the main UI
+  thread. It will freeze your app. Use `Isolate.run()` to offload transcription
+  to a background thread.
+
+## Troubleshooting
+
+### "Library not found" or "Image not found"
+
+- **Cause**: The native library was not built or linked correctly.
+- **Fix**: Run `dart pub get` again to trigger the build hook. Ensure you are on
+  macOS.
+
+### "Model download failed"
+
+- **Cause**: Network issues or invalid model path.
+- **Fix**: Check your internet connection. If using a custom model path, ensure
+  the file exists.
+
+### "Failed to initialize WhisperKit"
+
+- **Cause**: Incompatible model or corrupted file.
+- **Fix**: Try deleting the model and downloading it again.
+
 ## Development
 
 - **Tests**: Run `dart test` to verify changes. Tests must adhere to lint rules.
